@@ -73,11 +73,6 @@ const LatestArticle = () => {
             )
             // console.log(item)
           )}
-          {/* <Article />
-          <Article />
-          <Article />
-          <Article />
-          <Article /> */}
         </Carousel>
       </div>
     </div>

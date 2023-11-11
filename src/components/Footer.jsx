@@ -14,7 +14,7 @@ const Footer = () => {
         />
       </div>
       <div>
-        <div className="text-xl font-semibold mt-7">Contact</div>
+        <div className="text-xl font-semibold mt-7 text-[#0e2368]">Contact</div>
         <div className="font-light text-sm">
           <div className="mt-3">
             Lorem Ipsum Pvt Ltd.5/1, Magalton Road,
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-8">
-        <div className="text-xl font-semibold">Menu</div>
+        <div className="text-xl font-semibold text-[#0e2368]">Menu</div>
         <div className="text-sm font-light mt-6">
           <div className="mt-1">About Us</div>
           <div className="mt-1">Products</div>
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-8 pb-5">
-        <div className="text-xl font-semibold hidden sm:block">
+        <div className="text-xl font-semibold hidden sm:block text-[#0e2368]">
           Social Links
         </div>
         <div className="sm:items-start flex flex-col justify-center items-center">
