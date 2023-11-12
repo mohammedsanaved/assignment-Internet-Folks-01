@@ -5,7 +5,7 @@ const Article = ({ item }) => {
     <div className="p-2 sm:p-4 rounded-[20.94px] sm:w-[350px] w-[280px] h-fit border-[1.4px] border-solid border-lightsteelblue-200 m-4 flex  justify-evenly flex-col">
       <div className="items-center">
         <img
-          className="rounded-xl object-cover w-[265px]"
+          className="rounded-xl object-cover w-[265px] sm:w-[350px]"
           alt=""
           src={item.image}
         />
