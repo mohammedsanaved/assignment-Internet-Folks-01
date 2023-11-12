@@ -20,7 +20,11 @@ const LatestArticle = () => {
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 464, min: 375 },
+      items: 1,
+    },
+    smMobile: {
+      breakpoint: { max: 375, min: 320 },
       items: 1,
     },
   };
@@ -29,7 +33,7 @@ const LatestArticle = () => {
       carouselState: { currentSlide },
     } = rest;
     return (
-      <div className="flex gap-3 items-center justify-center my-16 md:my-0">
+      <div className="flex gap-3 items-center justify-center my-10 sm:my-5 md:my-0">
         <button
           className={`rounded py-[1.5px] px-[2px] bg-slate-300 text-stone-800
            disabled:bg-gray-200 disabled:text-gray-500`}
